@@ -1,9 +1,17 @@
+
+import java.util.Scanner;
+
 public class Car
 {
 	static void run()
 	{
-		System.out.println("hello");
 		
+		
+		Scanner userInput = new Scanner(System.in);
+		String part = "";
+		
+		
+	
 	}
 }
 
@@ -17,7 +25,7 @@ class CarPart implements Vehicle
 {
 	static int condition = 100;
 	
-	static void status()
+	void status()
 	{
 		System.out.println("The condition of this vehicle is: " + condition);
 	}
